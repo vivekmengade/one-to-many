@@ -15,7 +15,6 @@ public static void main(String[] args) {
 //			c=a/b;
 		}
 	System.out.println(c);
-	System.out.println("Stop");
 	System.out.println("Stop"); 
 }
 }
