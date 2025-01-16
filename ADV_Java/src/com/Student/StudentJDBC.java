@@ -16,6 +16,7 @@ public class StudentJDBC {
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/StudentJDBC","root","Vivek@123");
 		System.out.println("con = "+con);
 		System.out.println("END");
+		System.out.println("Connection sucsseful");
 	}
 	
 }
