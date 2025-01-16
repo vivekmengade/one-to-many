@@ -29,7 +29,11 @@ public class StudentJDBC {
 		int row = st.executeUpdate(query);
 		System.out.println(row+"affected rows...");
 		
-		System.out.println("END");
+		
+		//step-5: Closing Statement
+		st.close();
+		
+		System.out.println("closed");
 	}
 	
 }
