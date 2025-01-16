@@ -27,7 +27,9 @@ public class StudentJDBC {
 		System.out.println("Step-4");
 		String query = "insert into Student(id, name, percentage) values(103,'Amruta',93)";
 		String UpdateQuery ="update Student set id=105 where name = 'Amruta'";
+		String DeleteQuery = "delete from student where name = 'Amruta'";
 		st.executeUpdate(UpdateQuery);
+		st.executeUpdate(DeleteQuery);
 //		int row = st.executeUpdate(query);
 //		System.out.println(row+"affected rows...");
 		
