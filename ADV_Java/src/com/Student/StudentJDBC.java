@@ -26,8 +26,10 @@ public class StudentJDBC {
 //		step-4: execute query
 		System.out.println("Step-4");
 		String query = "insert into Student(id, name, percentage) values(103,'Amruta',93)";
-		int row = st.executeUpdate(query);
-		System.out.println(row+"affected rows...");
+		String UpdateQuery ="update Student set id=105 where name = 'Amruta'";
+		st.executeUpdate(UpdateQuery);
+//		int row = st.executeUpdate(query);
+//		System.out.println(row+"affected rows...");
 		
 		
 		//step-5: Closing Statement
