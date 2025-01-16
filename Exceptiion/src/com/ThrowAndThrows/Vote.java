@@ -4,7 +4,7 @@ public class Vote {
 
 	public static void Invalid(int age) {
 		if(age<18) {
-			throw new AgeInvalid("Age is Invalid");
+			throw new AgeInvalid("Java Environment Not Found!!! ");
 		}else {
 			System.out.println("age is Valid");
 		}
@@ -12,7 +12,7 @@ public class Vote {
 		
 	}
 	public static void main(String arg[]) {
-		Invalid(100);
+		Invalid(10);
 	}
 	
 	
