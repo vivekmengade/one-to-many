@@ -16,6 +16,7 @@ public class Prepared_St_std {
 		int id = sc.nextInt();
 		ps.setInt(1, id);
 //		ResultSet rs = ps.getResultSet();
+//		ResultSet rs = ps.executeQuery();
 		ResultSet rs = ps.executeQuery();
 		while(rs.next()) {
 			System.out.println(rs.getInt(1));
