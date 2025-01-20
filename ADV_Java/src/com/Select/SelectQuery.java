@@ -23,7 +23,7 @@ public class SelectQuery {
 		String Query2 = "select name from student where id = 101";
 		ResultSet rs2 = st2.executeQuery(Query2);
 		while(rs2.next()) {
-			System.out.println(rs2.getString("name"));		
+			System.out.println(rs2.getString("name"));
 		}
 		
 		
